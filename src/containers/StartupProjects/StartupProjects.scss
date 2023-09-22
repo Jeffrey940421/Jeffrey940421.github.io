@@ -92,4 +92,8 @@
     font-size: 16px;
     text-align: center;
   }
+
+  .projects-container {
+    grid-template-columns: minmax(300px, 1fr);
+  }
 }
