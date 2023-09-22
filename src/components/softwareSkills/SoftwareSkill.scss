@@ -1,0 +1,42 @@
+@import "../../_globalColor";
+
+.dev-icons {
+  padding-left: 0;
+  list-style: none;
+  font-size: 3rem;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.software-skill-inline {
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.software-skill-inline > i {
+  color: $subTitle;
+}
+
+.software-skill-inline > img {
+  filter: invert(60%) sepia(3%) saturate(944%) hue-rotate(169deg) brightness(92%) contrast(87%);
+  height: 48px;
+  max-width: 60px;
+}
+
+.software-skill-inline > img:hover {
+  filter: invert(33%) sepia(80%) saturate(1159%) hue-rotate(220deg) brightness(96%) contrast(93%);
+}
+
+.software-skill-inline > i:hover {
+  color: $skillsColor;
+}
+.software-skill-inline > p {
+  color: $subTitle;
+  font-size: 15px;
+  font-weight: bold;
+}
+.software-skill-inline > i:hover ~ p {
+  color: $skillsColor;
+}
